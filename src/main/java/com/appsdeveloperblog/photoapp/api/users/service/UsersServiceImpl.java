@@ -154,7 +154,7 @@ public class UsersServiceImpl implements UsersService {
 				});
 
 		logger.info(
-				"Albums web service endpoint called and recieved " + albumsListResponse.getBody().size() + " items");
+				"Albums web service endpoint called and recieved, " + albumsListResponse.getBody().size() + " items");
 
 		return albumsListResponse.getBody();
 	}
